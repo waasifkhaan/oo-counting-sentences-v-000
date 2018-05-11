@@ -16,8 +16,8 @@ class String
   end
 
   def count_sentences
-    #array= []
     self.split(/[?!.]/).count
-    #rray.count
+    binding.pry
+    
   end
 end
