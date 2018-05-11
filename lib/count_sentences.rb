@@ -14,9 +14,9 @@ class String
   def exclamation?
     self.end_with?("!")
   end
-
+array= []
   def count_sentences
-    self.split("/[?!.]/").count
-    
+    array << self.split("/[?!.]/")
+    array.count
   end
 end
